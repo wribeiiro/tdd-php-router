@@ -1,0 +1,29 @@
+{
+    "name": "wriibeiro/tdd-php-router",
+    "description": "A simple router created with tdd",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wellisson Ribeiro",
+            "email": "welleh10@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+             "Wribeiiro\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WribeiiroTest\\" : "tests"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
